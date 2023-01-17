@@ -1,0 +1,145 @@
+#navbar {
+  text-align: center;
+}
+#navbar
+{
+  margin-top: 20px;
+}
+#navbar a {
+  color: rgb (141,89,12);
+  text-decoration: none;
+  padding: 250px;
+}
+.header {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  top: 4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.header{
+  z-index:1;
+}
+body {
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+}
+h1 {text-decoration: underline;}
+body{background-color:bisque}
+.purple-link {
+color: purple;
+}
+h1 {
+  font-family: 'Verdana', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+color: rgb(141, 89, 12);
+}
+p {
+color: rgb(141, 89, 12);
+}
+ol{ color: rgb(141, 89, 12);}
+#day3 {
+color:rgb(105, 73, 219);
+}
+#day3a {
+color:rgb(86, 138, 86)
+}
+.favlist {
+text-decoration:underline;
+}
+.favlist {
+color:rgb(95, 71, 6)
+}
+
+#div1{
+background-color:hsl(155, 30%, 78%);
+}
+#div2{
+background-color: rgb(177, 150, 150);
+}
+#div3{
+background-color: rgb(113, 175, 160);
+}
+#div4{
+background-color: rgb(240, 243, 240);
+}
+#div5{
+  background-color: rgb(115, 187, 136);
+}
+#div9{
+  background-color: rgb(240, 243, 240);
+}
+#div1,#div2,#div3,#div4,#div5,#div9 {
+border:dashed;
+}
+#div1 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+form{
+padding:15px;
+background-color: rgb(136, 226, 163);
+font-style: italic;
+border-style: solid;
+font-weight: 900px;
+}
+input[type=button] {
+color:black;
+background-color: blueviolet;
+padding: 5px;
+}
+.submit-button {
+padding: 10px 20px;
+background-color: #4CAF50; 
+color: white; 
+border: none; 
+cursor: pointer; 
+}
+
+.submit-button:hover {
+background-color: #3e8e41;
+}
+<style type="text/css">
+    h1 {text-decoration: underline;}
+    body{background-color:bisque}
+    .purple-link {
+color: purple;
+}
+
+h1 {
+  color: rgb(141, 89, 12);
+}
+h3 {
+  color: rgb(141, 89, 12);
+}
+img {
+  position: relative;
+  left: 20px;
+  bottom: 0px;
+}
+img {
+  animation: moveRight 5s infinite;
+}
+@keyframes moveRight {
+  from {transform: translateX(0);}
+  to {transform: translateX(2000px);}
+}
+img {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+#div8 {
+  position: absolute;
+    bottom: 80;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+}
+  </style>
